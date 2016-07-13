@@ -1,0 +1,41 @@
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    b1=(Button) findViewById(R.id.b1);
+    b2=(Button) findViewById(R.id.b2);
+    b3=(Button) findViewById(R.id.b3);
+    b4=(Button) findViewById(R.id.b4);
+    b5=(Button) findViewById(R.id.b5);
+    b6=(Button) findViewById(R.id.b6);
+    b7=(Button) findViewById(R.id.b7);
+    b8=(Button) findViewById(R.id.b8);
+    b9=(Button) findViewById(R.id.b9);
+    bp=(Button) findViewById(R.id.bp);
+    bmi=(Button) findViewById(R.id.bmi);
+    bd=(Button) findViewById(R.id.bd);
+    bmu=(Button) findViewById(R.id.bmu);
+    bmo=(Button) findViewById(R.id.bmo);
+    bcl=(Button) findViewById(R.id.bcl);
+
+    b1.setOnClickListener(this);
+    b2.setOnClickListener(this);
+    b3.setOnClickListener(this);
+    b4.setOnClickListener(this);
+    b5.setOnClickListener(this);
+    b6.setOnClickListener(this);
+    b7.setOnClickListener(this);
+    b8.setOnClickListener(this);
+    b9.setOnClickListener(this);
+    bp.setOnClickListener(this);
+    bmi.setOnClickListener(this);
+    bd.setOnClickListener(this);
+    bmu.setOnClickListener(this);
+    bmo.setOnClickListener(this);
+    bcl.setOnClickListener(this);
+
+    input = (EditText) findViewById(R.id.input);
+    result = (TextView) findViewById(R.id.result);
+
+}
